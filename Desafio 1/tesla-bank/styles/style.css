@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  position: absolute; /* Posicionamento fixo */
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  width: 90%;
+  margin: auto;
+  background-color: transparent;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.navigation li a {
+  margin-right: 5px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navigation li i {
+  color: #EB3850 ;
+}
+
+.login {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+
+.login li a {
+  margin-right: 5px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login li i {
+  color: #fff ;
+}
+.apresentation {
+  height: 100vh;
+  background-color: #757575;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apresentation_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 1500px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.apresentation_content h1 {
+  font-size: 40px;
+  color: #d62139;
+}
+
+.apresentation_content div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.apresentation_content div button {
+  padding: 15px 30px;
+  font-size: 14px;
+  border: none;
+  background-color: #d62139;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.apresentation_content div button i {
+  margin-left: 20px;
+}
+
+.app_icons {
+  cursor: pointer;
+  color: #d62139;
+  font-size: 30px;
+}
